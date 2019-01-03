@@ -3,7 +3,7 @@ A demo finance application featuring Desktop, Web and Native Mobile [Android, Ja
 
 The below technologies have been used to build this application;
 
-# Moble
+# Mobile
 * Android Native Programming through Android SDK
 * Feature Phone Programming through J2ME/Java Midlet SDK
 
