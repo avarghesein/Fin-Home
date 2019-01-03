@@ -23,7 +23,7 @@ Navigate the projects as Numbered
 ![alt Source](https://github.com/avarghesein/Fin-Home/blob/master/Source/Screenshots/FinHome.ProjectStructure.jpg)
 
 # 1. Desktop Main Application (Finance@Home.mdb Application) - No Build Required
-This is a Microsoft Access file, which you can directly open given Microsoft Office (Access) 2007+ installed on your system. This suite contains feature to add your daily expenditures, investments, insurance policies, scheduled tasks etc. Reporting based on each of the above categories have been provided for viewing a consolidated summary
+This is a Microsoft Access file, which you can directly open given Microsoft Office (Access) 2007+ installed on your system. This suite contains feature to add your daily expenditures, investments, policies, scheduled tasks etc. Reporting based on each of the above categories have been provided for viewing a consolidated summary
 
 ![alt Main Application](https://github.com/avarghesein/Fin-Home/blob/master/Source/Screenshots/FinHome.DesktopMDBApplication.jpg)
 
