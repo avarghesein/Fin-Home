@@ -1,11 +1,11 @@
 # Fin@Home
-A demo finance application featuring Desktop, Web and Native Mobile [Android, Java Feature Phone] Platforms...
+A demo finance application featuring Desktop, Web and Native Mobile [Android, Java Feature Phone (J2ME) ] Platforms...
 
-The below technologies has been used to build this application;
+The below technologies have been used to build this application;
 
 # Moble
 * Android Native Programming through Android SDK
-* Feature Phone Programming through Java Midlet SDK
+* Feature Phone Programming through J2ME/Java Midlet SDK
 
 # Desktop
 * Microsoft Access 2007+ Database Technologies
