@@ -32,7 +32,7 @@ This is an easy approach to use the application directly in a IE WebPage, withou
 
 ![alt Web Application](https://github.com/avarghesein/Fin-Home/blob/master/Source/Screenshots/FinHome.DesktopHTMLPage.jpg)
 
-# 3-4. Desktop Tray Notification for Live Alers (TrayNotificatonComponents) - Build using Visual Studio 6 (VB6, VC++ 6 compilers)*
+# 3-4. Desktop Tray Notification for Live Alerts (TrayNotificatonComponents) - Build using Visual Studio 6 (VB6, VC++ 6 compilers)*
 If you would like to get Live notifications (Say if your policy has a due or a scheduled task has already gone past), this components will provide you the feature. It will give you an OUTLOOK kind desktop pop up notification, clicking on which will open detailed due Reports.
 It has been built using two components
 
