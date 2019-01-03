@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B1AE9010-5195-4695-ADEC-A0158A512A28}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fin.Home.Mobile.JavaFeatureNative</RootNamespace>
+    <AssemblyName>Fin.Home.Mobile.JavaFeatureNative</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\compiled\Finance\CalendarCanvas.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\compiled\Finance\CalendarWidget.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\compiled\Finance\ConfirmMsgBox%24IConfirmRequester.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\compiled\Finance\ConfirmMsgBox.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\compiled\Finance\ExpenseEntryForm.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\compiled\Finance\ExpenseList.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\compiled\Finance\FinanceMIDlet.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\compiled\Finance\FinanceRecord.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\compiled\Finance\FinanceRecordStore.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\manifest.mf" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\preverified\Finance\CalendarCanvas.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\preverified\Finance\CalendarWidget.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\preverified\Finance\ConfirmMsgBox%24IConfirmRequester.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\preverified\Finance\ConfirmMsgBox.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\preverified\Finance\ExpenseEntryForm.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\preverified\Finance\ExpenseList.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\preverified\Finance\FinanceMIDlet.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\preverified\Finance\FinanceRecord.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\preverified\Finance\FinanceRecordStore.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\preverifysrc\Finance\CalendarCanvas.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\preverifysrc\Finance\CalendarWidget.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\preverifysrc\Finance\ConfirmMsgBox%24IConfirmRequester.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\preverifysrc\Finance\ConfirmMsgBox.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\preverifysrc\Finance\ExpenseEntryForm.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\preverifysrc\Finance\ExpenseList.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\preverifysrc\Finance\FinanceMIDlet.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\preverifysrc\Finance\FinanceRecord.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\build\preverifysrc\Finance\FinanceRecordStore.class" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\dist\Finance%40Mobile.jad" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\nbproject\genfiles.properties" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\nbproject\private\private.properties" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\nbproject\project.properties" />
+    <None Include="Fin.Home.Mobile.JavaFeatureNative\src\Finance\FinanceMIDlet.vmd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\build.xml" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\build\preprocessed\Finance\CalendarCanvas.java" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\build\preprocessed\Finance\CalendarWidget.java" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\build\preprocessed\Finance\ConfirmMsgBox.java" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\build\preprocessed\Finance\ExpenseEntryForm.java" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\build\preprocessed\Finance\ExpenseList.java" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\build\preprocessed\Finance\FinanceMIDlet.java" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\build\preprocessed\Finance\FinanceRecord.java" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\build\preprocessed\Finance\FinanceRecordStore.java" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\dist\Finance%40Mobile.jar" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\nbproject\build-impl.xml" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\nbproject\private\private.xml" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\nbproject\project.xml" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\src\Finance\CalendarCanvas.java" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\src\Finance\CalendarWidget.java" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\src\Finance\ConfirmMsgBox.java" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\src\Finance\ExpenseEntryForm.java" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\src\Finance\ExpenseList.java" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\src\Finance\FinanceMIDlet.java" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\src\Finance\FinanceRecord.java" />
+    <Content Include="Fin.Home.Mobile.JavaFeatureNative\src\Finance\FinanceRecordStore.java" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Fin.Home.Mobile.JavaFeatureNative\dist\lib\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,133 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.8168.0 (5b36fcf9).
+//
+// d:\projects\financeservice-wtl\financeservice\release\Finance@Server.tlh
+//
+// C++ source equivalent of Win32 type library ..\FinanceServer\Finance@Server.exe
+// compiler-generated file created 12/17/11 at 11:23:12 - DO NOT EDIT!
+
+//
+// Cross-referenced type libraries:
+//
+//  #import "C:\Program Files\Common Files\system\ado\msado25.tlb"
+//
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("e07d79df-a64e-4860-8dec-64976ee664ad"))
+/* dual interface */ _FinanceServer;
+struct /* coclass */ FinanceServer;
+typedef struct _FinanceServer FinanceServer___v0;
+struct __declspec(uuid("fead47bf-6a75-4524-bdd0-5d7ebc28747e"))
+/* dual interface */ _FinanceFactory;
+struct /* coclass */ FinanceFactory;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(_FinanceServer, __uuidof(_FinanceServer));
+_COM_SMARTPTR_TYPEDEF(_FinanceFactory, __uuidof(_FinanceFactory));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("e07d79df-a64e-4860-8dec-64976ee664ad"))
+_FinanceServer : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL GetAlerts (
+        BSTR * policy,
+        BSTR * investment,
+        BSTR * tasks );
+    _ConnectionPtr GetConnection ( );
+    _RecordsetPtr qryScheduledTaskStatus (
+        struct _Connection * * cn );
+    _RecordsetPtr qryInvestmentDetails (
+        struct _Connection * * cn );
+    _RecordsetPtr qryPolicyDues (
+        struct _Connection * * cn );
+    VARIANT_BOOL GetFinanceHomeApp (
+        BSTR * app,
+        BSTR * params );
+    VARIANT_BOOL GetFinanceDBPath (
+        BSTR * dbPath );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_GetAlerts (
+        BSTR * policy,
+        BSTR * investment,
+        BSTR * tasks,
+        VARIANT_BOOL * _arg4 ) = 0;
+    virtual HRESULT __stdcall raw_GetConnection (
+        struct _Connection * * _arg1 ) = 0;
+    virtual HRESULT __stdcall raw_qryScheduledTaskStatus (
+        struct _Connection * * cn,
+        struct _Recordset * * _arg2 ) = 0;
+    virtual HRESULT __stdcall raw_qryInvestmentDetails (
+        struct _Connection * * cn,
+        struct _Recordset * * _arg2 ) = 0;
+    virtual HRESULT __stdcall raw_qryPolicyDues (
+        struct _Connection * * cn,
+        struct _Recordset * * _arg2 ) = 0;
+    virtual HRESULT __stdcall raw_GetFinanceHomeApp (
+        BSTR * app,
+        BSTR * params,
+        VARIANT_BOOL * _arg3 ) = 0;
+    virtual HRESULT __stdcall raw_GetFinanceDBPath (
+        BSTR * dbPath,
+        VARIANT_BOOL * _arg2 ) = 0;
+};
+
+struct __declspec(uuid("d0582720-aa36-4f57-ba85-3889565bc45d"))
+FinanceServer;
+    // [ default ] interface _FinanceServer
+
+struct __declspec(uuid("fead47bf-6a75-4524-bdd0-5d7ebc28747e"))
+_FinanceFactory : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetFinanceServerObject))
+    _FinanceServerPtr FinanceServerObject;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _FinanceServerPtr GetFinanceServerObject ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_FinanceServerObject (
+        struct _FinanceServer * * _arg1 ) = 0;
+};
+
+struct __declspec(uuid("cb8c3f93-1a18-4cbd-9e7f-00b6598eb02c"))
+FinanceFactory;
+    // [ default ] interface _FinanceFactory
+
+//
+// Wrapper method implementations
+//
+
+#include "d:\projects\financeservice-wtl\financeservice\release\Finance@Server.tli"
+
+#pragma pack(pop)

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    >
+    <LinearLayout
+    
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg">
+
+                
+        <TableLayout android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:stretchColumns="0"
+                 android:padding="10px">
+            <TableRow >
+                <TextView android:layout_span="3" android:text="07-Mar-2014" android:id="@+id/lblDate" android:textColor="#000000" android:layout_width="fill_parent" android:gravity="center_horizontal"/>
+            </TableRow>
+            <TableRow >
+            
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Title:*" android:textColor="#000000" android:layout_span="3"></TextView>            
+            </TableRow>
+            <TableRow>
+                <AutoCompleteTextView android:id="@+id/txtTitle" android:layout_span="3" android:windowSoftInputMode="stateVisible|adjustPan"
+                                  android:layout_height="wrap_content"
+                                  android:layout_margin="1dp"
+                                  android:inputType="text|textNoSuggestions"
+                                  android:popupBackground="#EFEEEC"
+                                  android:textColor="#000000"
+                                  android:textColorHint="#9c9c9c"
+                                  android:completionThreshold="1"
+                                  android:singleLine="true"/>
+            </TableRow>
+          
+            <TableRow>
+                <TextView android:text="Amount:*" android:textColor="#000000" android:layout_span="3" android:windowSoftInputMode="stateVisible|adjustPan"></TextView>            
+            </TableRow>
+            <TableRow>
+                <EditText android:id="@+id/txtAmount" android:layout_span="3" android:inputType="numberDecimal"/>
+            </TableRow>
+                   
+            <TableRow>
+                <TextView android:text="Category:*" android:textColor="#000000" android:layout_span="3"></TextView>            
+            </TableRow>
+      
+            <TableRow>
+                <Spinner android:id="@+id/txtCategory" android:layout_span="3"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:clipChildren="true"
+                     />
+            </TableRow>
+       
+            <TableRow>
+                <CheckBox android:id="@+id/chkDebit" android:textColor="#000000" android:text="Debit?"/>
+     
+                <CheckBox android:id="@+id/chkMark" android:textColor="#000000" android:text="Mark?"/>
+    
+                <CheckBox android:id="@+id/chkOneTime" android:textColor="#000000" android:text="One Time?"/>
+            </TableRow>
+        
+            <TableRow>           
+            
+                <Button android:id="@+id/btnCancel" android:textColor="#000000" android:text="Back"/>
+                <TextView/>
+                <Button android:id="@+id/btnOk" android:textColor="#000000" android:text="Add"/>
+            </TableRow>
+        </TableLayout>     
+	
+	
+    </LinearLayout>
+</ScrollView>

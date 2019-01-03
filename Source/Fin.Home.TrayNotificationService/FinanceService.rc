@@ -1,0 +1,229 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "atlres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""atlres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GENERAL DIALOG  0, 0, 380, 287
+STYLE DS_SETFONT | WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION
+CAPTION "Alerts"
+FONT 8, "Tahoma"
+BEGIN
+    EDITTEXT        IDC_EDT_ALERT,8,8,364,238,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | NOT WS_TABSTOP
+END
+
+IDD_DIALOG_CONFIG DIALOGEX 0, 0, 410, 313
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Finance@Service"
+FONT 8, "Tahoma", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Apply",IDC_CONFG_APPLY,201,288,59,13,NOT WS_TABSTOP
+    PUSHBUTTON      "OK",IDC_CONFG_OK,263,288,59,13,NOT WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDC_CONFG_CANCEL,325,288,59,13,NOT WS_TABSTOP
+    PUSHBUTTON      "Open Finance@Home...",IDC_OPEN_DB,11,288,95,13,NOT WS_TABSTOP
+END
+
+IDD_ADV DIALOGEX 0, 0, 376, 231
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION
+CAPTION "Settings..."
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    CONTROL         "Check1",IDC_CHK_HIDEALERTS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,175,9,8
+    LTEXT           "If already viewed, Hide further Alerts...",IDC_STATIC,19,175,135,10
+    CONTROL         "Hide alerts till (Select Date/Time Below)",IDC_CHK_HIDEALERTS_DTM,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,45,9,8,WS_EX_RIGHT
+    LTEXT           "Disable Alerts till the below Date/Time...",IDC_STATIC,19,45,128,10
+    CONTROL         "DateTimePicker1",IDC_CTL_TIME,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | DTS_APPCANPARSE | WS_TABSTOP | 0x8,88,153,58,12
+    CONTROL         "",IDC_CHK_AUTOSTART,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,228,8,9,8
+    LTEXT           "Auto Startup",IDC_STATIC,240,8,45,10
+    LTEXT           "Check for Alerts in every",IDC_STATIC,7,9,80,9
+    EDITTEXT        IDC_EDT_ALERT_INTVL,91,7,27,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_CHK_TRAY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,289,8,9,8
+    LTEXT           "Show in System Tray",IDC_STATIC,301,8,68,10
+    CONTROL         "MonthCalendar1",IDC_CTL_CAL,"SysMonthCal32",MCS_NOTODAY | MCS_NOTODAYCIRCLE | WS_TABSTOP,18,58,128,93,WS_EX_TRANSPARENT | WS_EX_RIGHT
+    CONTROL         "",IDC_CHK_ONCOUNTCHECKALERT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,27,9,8
+    LTEXT           "Check Alerts only for ",IDC_STATIC,19,27,67,10
+    EDITTEXT        IDC_EDT_ALERT_CHKCOUNT,91,25,27,12,ES_AUTOHSCROLL
+    LTEXT           "times",IDC_STATIC,123,27,24,10
+    LTEXT           "seconds",IDC_STATIC,123,9,36,10
+    CONTROL         "",IDC_CHK_AUTOBACKUP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,169,45,9,8
+    LTEXT           "Auto Backup (Database File)",IDC_STATIC,181,45,98,10
+    LTEXT           "In every:",IDC_STATIC,182,59,33,9
+    EDITTEXT        IDC_EDT_BKUP_DAYS,228,59,27,12,ES_AUTOHSCROLL
+    LTEXT           "(days)",IDC_STATIC,261,59,24,10
+    LTEXT           "Backup Path:",IDC_STATIC,182,76,44,9
+    EDITTEXT        IDC_EDT_BKUP_PTH,228,75,121,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BTN_BRWS_BKUPPTH,352,75,12,12
+END
+
+IDD_DEBITS_CREDITS DIALOGEX 0, 0, 384, 263
+STYLE DS_SETFONT | WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION
+EXSTYLE WS_EX_NOPARENTNOTIFY
+CAPTION "Debits/Credits"
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_GENERAL, DIALOG
+    BEGIN
+        RIGHTMARGIN, 379
+        BOTTOMMARGIN, 285
+    END
+
+    IDD_DIALOG_CONFIG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 398
+        BOTTOMMARGIN, 300
+    END
+
+    IDD_ADV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 369
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 221
+    END
+
+    IDD_DEBITS_CREDITS, DIALOG
+    BEGIN
+        RIGHTMARGIN, 383
+        BOTTOMMARGIN, 261
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "Finance@Service"
+            VALUE "FileVersion", "1, 0, 0, 0"
+            VALUE "InternalName", "Finance@Service"
+            VALUE "LegalCopyright", "Copyright (C) 2008"
+            VALUE "OriginalFilename", "Finance@Service.EXE"
+            VALUE "ProductName", "Finance@Service"
+            VALUE "ProductVersion", "1, 0, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_FIN_MENU MENU 
+BEGIN
+    POPUP "Main"
+    BEGIN
+        MENUITEM "Show...",                     ID_MAIN_OPTIONS
+        MENUITEM "Reset...",                    ID_MAIN_RESET
+        MENUITEM "Close",                       ID_MAIN_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BMP_NORMAL          BITMAP                  "res\\cross.bmp"
+IDB_BMP_PRESS           BITMAP                  "res\\cross1.bmp"
+IDB_BMP_HOVER           BITMAP                  "res\\cross2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_NAME            "Finance@Service"
+    IDS_TRAY                "Finance Alerts! Click here to open...."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+

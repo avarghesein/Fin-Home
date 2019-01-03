@@ -1,0 +1,185 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FinanceService - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/FinanceService.res" /d "NDEBUG" /d "_AFXDLL" "D:\Projects\New\FinanceService\FinanceService\FinanceService.rc"" 
+Creating temporary file "C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSPB.tmp" with contents
+[
+/nologo /Gz /MD /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/FinanceService.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Projects\New\FinanceService\FinanceService\Advanced.cpp"
+"D:\Projects\New\FinanceService\FinanceService\BMPButton.cpp"
+"D:\Projects\New\FinanceService\FinanceService\calendar.cpp"
+"D:\Projects\New\FinanceService\FinanceService\CreditsDebits.cpp"
+"D:\Projects\New\FinanceService\FinanceService\creditsdebitscontrol.cpp"
+"D:\Projects\New\FinanceService\FinanceService\Finance.cpp"
+"D:\Projects\New\FinanceService\FinanceService\FinanceDB.cpp"
+"D:\Projects\New\FinanceService\FinanceService\FinanceDlg.cpp"
+"D:\Projects\New\FinanceService\FinanceService\font.cpp"
+"D:\Projects\New\FinanceService\FinanceService\General.cpp"
+"D:\Projects\New\FinanceService\FinanceService\NotifyWnd.cpp"
+"D:\Projects\New\FinanceService\FinanceService\PropertiesDlg.cpp"
+"D:\Projects\New\FinanceService\FinanceService\ReadOnlyEdit.cpp"
+"D:\Projects\New\FinanceService\FinanceService\SettingsManager.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSPB.tmp" 
+Creating temporary file "C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSPC.tmp" with contents
+[
+/nologo /Gz /MD /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/FinanceService.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Projects\New\FinanceService\FinanceService\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSPC.tmp" 
+Creating temporary file "C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSPD.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Finance@Service.pdb" /machine:I386 /out:"Release/Finance@Service.exe" 
+.\Release\Advanced.obj
+.\Release\BMPButton.obj
+.\Release\calendar.obj
+.\Release\CreditsDebits.obj
+.\Release\creditsdebitscontrol.obj
+.\Release\Finance.obj
+.\Release\FinanceDB.obj
+.\Release\FinanceDlg.obj
+.\Release\font.obj
+.\Release\General.obj
+.\Release\NotifyWnd.obj
+.\Release\PropertiesDlg.obj
+.\Release\ReadOnlyEdit.obj
+.\Release\SettingsManager.obj
+.\Release\StdAfx.obj
+.\Release\FinanceService.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSPD.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+
+NOTE: WINVER has been defined as 0x0500 or greater which enables
+Windows NT 5.0 and Windows 98 features. When these headers were released,
+Windows NT 5.0 beta 1 and Windows 98 beta 2.1 were the current versions.
+
+For this release when WINVER is defined as 0x0500 or greater, you can only
+build beta or test applications.  To build a retail application,
+set WINVER to 0x0400 or visit http://www.microsoft.com/msdn/sdk
+to see if retail Windows NT 5.0 or Windows 98 headers are available.
+
+See the SDK release notes for more information.
+
+Compiling...
+Advanced.cpp
+BMPButton.cpp
+calendar.cpp
+CreditsDebits.cpp
+creditsdebitscontrol.cpp
+Finance.cpp
+FinanceDB.cpp
+FinanceDlg.cpp
+font.cpp
+General.cpp
+NotifyWnd.cpp
+PropertiesDlg.cpp
+ReadOnlyEdit.cpp
+SettingsManager.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Finance@Service.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: FinanceService - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/FinanceService.res" /d "_DEBUG" /d "_AFXDLL" "D:\Projects\New\FinanceService\FinanceService\FinanceService.rc"" 
+Creating temporary file "C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSPF.tmp" with contents
+[
+/nologo /Gz /MDd /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/FinanceService.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Projects\New\FinanceService\FinanceService\Advanced.cpp"
+"D:\Projects\New\FinanceService\FinanceService\BMPButton.cpp"
+"D:\Projects\New\FinanceService\FinanceService\calendar.cpp"
+"D:\Projects\New\FinanceService\FinanceService\CreditsDebits.cpp"
+"D:\Projects\New\FinanceService\FinanceService\creditsdebitscontrol.cpp"
+"D:\Projects\New\FinanceService\FinanceService\Finance.cpp"
+"D:\Projects\New\FinanceService\FinanceService\FinanceDB.cpp"
+"D:\Projects\New\FinanceService\FinanceService\FinanceDlg.cpp"
+"D:\Projects\New\FinanceService\FinanceService\font.cpp"
+"D:\Projects\New\FinanceService\FinanceService\General.cpp"
+"D:\Projects\New\FinanceService\FinanceService\NotifyWnd.cpp"
+"D:\Projects\New\FinanceService\FinanceService\PropertiesDlg.cpp"
+"D:\Projects\New\FinanceService\FinanceService\ReadOnlyEdit.cpp"
+"D:\Projects\New\FinanceService\FinanceService\SettingsManager.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSPF.tmp" 
+Creating temporary file "C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSP10.tmp" with contents
+[
+/nologo /Gz /MDd /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/FinanceService.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Projects\New\FinanceService\FinanceService\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSP10.tmp" 
+Creating temporary file "C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSP11.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Finance@Service.pdb" /debug /machine:I386 /out:"Debug/Finance@Service.exe" /pdbtype:sept 
+.\Debug\Advanced.obj
+.\Debug\BMPButton.obj
+.\Debug\calendar.obj
+.\Debug\CreditsDebits.obj
+.\Debug\creditsdebitscontrol.obj
+.\Debug\Finance.obj
+.\Debug\FinanceDB.obj
+.\Debug\FinanceDlg.obj
+.\Debug\font.obj
+.\Debug\General.obj
+.\Debug\NotifyWnd.obj
+.\Debug\PropertiesDlg.obj
+.\Debug\ReadOnlyEdit.obj
+.\Debug\SettingsManager.obj
+.\Debug\StdAfx.obj
+.\Debug\FinanceService.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSP11.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+
+NOTE: WINVER has been defined as 0x0500 or greater which enables
+Windows NT 5.0 and Windows 98 features. When these headers were released,
+Windows NT 5.0 beta 1 and Windows 98 beta 2.1 were the current versions.
+
+For this release when WINVER is defined as 0x0500 or greater, you can only
+build beta or test applications.  To build a retail application,
+set WINVER to 0x0400 or visit http://www.microsoft.com/msdn/sdk
+to see if retail Windows NT 5.0 or Windows 98 headers are available.
+
+See the SDK release notes for more information.
+
+Compiling...
+Advanced.cpp
+BMPButton.cpp
+calendar.cpp
+CreditsDebits.cpp
+creditsdebitscontrol.cpp
+Finance.cpp
+FinanceDB.cpp
+FinanceDlg.cpp
+font.cpp
+General.cpp
+NotifyWnd.cpp
+PropertiesDlg.cpp
+ReadOnlyEdit.cpp
+SettingsManager.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Finance@Service.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

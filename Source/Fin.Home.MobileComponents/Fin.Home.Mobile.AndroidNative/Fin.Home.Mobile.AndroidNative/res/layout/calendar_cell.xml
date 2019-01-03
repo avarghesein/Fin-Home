@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+>
+<!--android:background="@drawable/calendar_button_selector"-->
+    <Button
+        android:id="@+id/calendar_cell"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/calendar_button_selector"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </Button>
+	<!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+	
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="*"
+        android:layout_weight="1">
+        <TableRow android:layout_weight="1">
+            <TextView 
+                android:id="@+id/num_events_per_day"
+                style="@style/calendar_event_style"
+                android:layout_gravity="top"
+                android:textColor="#e36c09"
+                android:layout_width="fill_parent"					
+                android:layout_height="fill_parent"
+                android:typeface="monospace"
+                android:textStyle="bold"
+                android:textSize="8sp"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text=""/>
+        </TableRow>
+        <TableRow android:layout_weight="1">               
+            <TextView 
+                android:id="@+id/credits_per_day"
+                android:layout_gravity="bottom"					
+                android:textColor="#c3d69b"
+                style="@style/calendar_event_style"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:typeface="monospace"
+                android:textStyle="bold"
+                android:textSize="8sp"
+                />                
+        </TableRow>
+    </TableLayout>
+	
+</FrameLayout>

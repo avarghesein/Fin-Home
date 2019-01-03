@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C5AAF214-3112-4661-B4D1-09A1564ABA5D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fin.Home.Mobile.AndroidNative</RootNamespace>
+    <AssemblyName>Fin.Home.Mobile.AndroidNative</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Fin.Home.Mobile.AndroidNative\ant.properties" />
+    <None Include="Fin.Home.Mobile.AndroidNative\ApkExportKeyFile" />
+    <None Include="Fin.Home.Mobile.AndroidNative\build.properties" />
+    <None Include="Fin.Home.Mobile.AndroidNative\default.properties" />
+    <None Include="Fin.Home.Mobile.AndroidNative\gen\R.java.d" />
+    <None Include="Fin.Home.Mobile.AndroidNative\local.properties" />
+    <None Include="Fin.Home.Mobile.AndroidNative\nbandroid\private.properties" />
+    <None Include="Fin.Home.Mobile.AndroidNative\PackageToDeploy\Finance%40Home.apk" />
+    <None Include="Fin.Home.Mobile.AndroidNative\PackageToDeploy\FinanceDB%40Mobile.sqlite" />
+    <None Include="Fin.Home.Mobile.AndroidNative\project.properties" />
+    <None Include="Fin.Home.Mobile.AndroidNative\SQL-Lite-DB\FinanceDB%40Mobile.sqlite" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fin.Home.Mobile.AndroidNative\AndroidManifest.xml" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\build.xml" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\gen\Home\Finance\BuildConfig.java" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\gen\Home\Finance\R.java" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\lint.xml" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\private\cache\retriever\catalog.xml" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\proguard-project.txt" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\drawable\bg.png" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\drawable\blue_bg_with_text.png" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\drawable\calendar_bar.png" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\drawable\calendar_bg_orange.png" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\drawable\calendar_button_selector.xml" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\drawable\calendar_centralheader.png" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\drawable\calendar_left_arrow_selector.xml" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\drawable\calendar_right_arrow_selector.xml" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\drawable\calendar_tile.png" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\drawable\calendar_tile_small.png" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\drawable\calendar_top_header.png" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\drawable\calendar_view.png" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\drawable\cal_left_arrow_off.png" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\drawable\cal_left_arrow_on.png" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\drawable\cal_right_arrow_off.png" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\drawable\cal_right_arrow_on.png" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\drawable\fincalc.jpg" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\drawable\icon.png" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\layout\calendar_cell.xml" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\layout\calendar_view.xml" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\layout\custom_spinview.xml" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\layout\daily_view.xml" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\layout\expense_view.xml" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\values\colors.xml" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\values\strings.xml" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\res\values\styles_calendar_events.xml" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\src\Home\Finance\CalendarView.java" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\src\Home\Finance\CategoryEntity.java" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\src\Home\Finance\CustomArrayAdapterExtension.java" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\src\Home\Finance\DailyActivity.java" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\src\Home\Finance\DailyExpenseSummary.java" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\src\Home\Finance\DateUtility.java" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\src\Home\Finance\ExpenseActivity.java" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\src\Home\Finance\FinanceAdapter.java" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\src\Home\Finance\FinanceCommon.java" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\src\Home\Finance\FinanceEntity.java" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\src\Home\Finance\Main.java" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\src\Home\Finance\MonthlyExpenseSummary.java" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\src\Home\Finance\SQLiteAdapter.java" />
+    <Content Include="Fin.Home.Mobile.AndroidNative\src\Home\Finance\SwipeTouchListener.java" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Fin.Home.Mobile.AndroidNative\libs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

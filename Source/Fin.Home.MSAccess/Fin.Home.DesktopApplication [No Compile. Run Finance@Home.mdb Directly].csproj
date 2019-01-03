@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3384737C-A197-421D-9D7A-0B19729A8A0C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fin.Home.MSAccess</RootNamespace>
+    <AssemblyName>Fin.Home.MSAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Finance%40Home.html" />
+    <Content Include="Finance%40Home.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Finance%40Home_DB.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Finance%40Server.exe" />
+    <Content Include="FinanceService.exe" />
+    <Content Include="HTML\IMG\closeButton_down.gif" />
+    <Content Include="HTML\IMG\closeButton_normal.gif" />
+    <Content Include="HTML\IMG\closeButton_over.gif" />
+    <Content Include="HTML\IMG\monthBackward_down.gif" />
+    <Content Include="HTML\IMG\monthBackward_normal.gif" />
+    <Content Include="HTML\IMG\monthBackward_over.gif" />
+    <Content Include="HTML\IMG\monthForward_down.gif" />
+    <Content Include="HTML\IMG\monthForward_normal.gif" />
+    <Content Include="HTML\IMG\monthForward_over.gif" />
+    <Content Include="HTML\IMG\yearBackward_down.gif" />
+    <Content Include="HTML\IMG\yearBackward_normal.gif" />
+    <Content Include="HTML\IMG\yearBackward_over.gif" />
+    <Content Include="HTML\IMG\yearForward_down.gif" />
+    <Content Include="HTML\IMG\yearForward_normal.gif" />
+    <Content Include="HTML\IMG\yearForward_over.gif" />
+    <Content Include="HTML\jsDatePick.min.1.3.js" />
+    <Content Include="HTML\jsDatePick_ltr.min.css" />
+    <Content Include="HTML\Script.js" />
+    <Content Include="HTML\Script.vbs" />
+    <Content Include="HTML\Scrollable.js" />
+    <Content Include="HTML\Style.css" />
+    <Content Include="Report.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HTML\IMG\Thumbs.db" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

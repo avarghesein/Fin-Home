@@ -1,0 +1,72 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.8168.0 (5b36fcf9).
+//
+// d:\projects\financeservice-wtl\financeservice\release\Finance@Server.tli
+//
+// Wrapper implementations for Win32 type library ..\FinanceServer\Finance@Server.exe
+// compiler-generated file created 12/17/11 at 11:23:12 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface _FinanceServer wrapper method implementations
+//
+
+inline VARIANT_BOOL _FinanceServer::GetAlerts ( BSTR * policy, BSTR * investment, BSTR * tasks ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_GetAlerts(policy, investment, tasks, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _ConnectionPtr _FinanceServer::GetConnection ( ) {
+    struct _Connection * _result;
+    HRESULT _hr = raw_GetConnection(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _ConnectionPtr(_result, false);
+}
+
+inline _RecordsetPtr _FinanceServer::qryScheduledTaskStatus ( struct _Connection * * cn ) {
+    struct _Recordset * _result;
+    HRESULT _hr = raw_qryScheduledTaskStatus(cn, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _RecordsetPtr(_result, false);
+}
+
+inline _RecordsetPtr _FinanceServer::qryInvestmentDetails ( struct _Connection * * cn ) {
+    struct _Recordset * _result;
+    HRESULT _hr = raw_qryInvestmentDetails(cn, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _RecordsetPtr(_result, false);
+}
+
+inline _RecordsetPtr _FinanceServer::qryPolicyDues ( struct _Connection * * cn ) {
+    struct _Recordset * _result;
+    HRESULT _hr = raw_qryPolicyDues(cn, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _RecordsetPtr(_result, false);
+}
+
+inline VARIANT_BOOL _FinanceServer::GetFinanceHomeApp ( BSTR * app, BSTR * params ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_GetFinanceHomeApp(app, params, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL _FinanceServer::GetFinanceDBPath ( BSTR * dbPath ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_GetFinanceDBPath(dbPath, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface _FinanceFactory wrapper method implementations
+//
+
+inline _FinanceServerPtr _FinanceFactory::GetFinanceServerObject ( ) {
+    struct _FinanceServer * _result;
+    HRESULT _hr = get_FinanceServerObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _FinanceServerPtr(_result, false);
+}

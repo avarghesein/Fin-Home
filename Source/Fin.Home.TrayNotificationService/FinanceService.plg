@@ -1,0 +1,155 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FinanceService - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/FinanceService.res" /d "NDEBUG" "D:\Projects\FinanceService-WTL\FinanceService\FinanceService.rc"" 
+Creating temporary file "C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSP9.tmp" with contents
+[
+/nologo /MT /W2 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "STRICT" /Fp"Release/FinanceService.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Projects\FinanceService-WTL\FinanceService\Advanced.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\BMPButton.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\CreditsDebits.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\FinanceDB.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\FinanceService.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\General.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\MainDlg.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\NotifyWnd.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\PropertiesDlg.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\PropertySheet.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\ReadOnlyEdit.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\SettingsManager.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\TimeCore.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSP9.tmp" 
+Creating temporary file "C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSPA.tmp" with contents
+[
+/nologo /MT /W2 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "STRICT" /Fp"Release/FinanceService.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Projects\FinanceService-WTL\FinanceService\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSPA.tmp" 
+Creating temporary file "C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSPB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/FinanceService.pdb" /machine:I386 /out:"Release/FinanceService.exe" 
+".\Release\Advanced.obj"
+".\Release\BMPButton.obj"
+".\Release\CreditsDebits.obj"
+".\Release\FinanceDB.obj"
+".\Release\FinanceService.obj"
+".\Release\General.obj"
+".\Release\MainDlg.obj"
+".\Release\NotifyWnd.obj"
+".\Release\PropertiesDlg.obj"
+".\Release\PropertySheet.obj"
+".\Release\ReadOnlyEdit.obj"
+".\Release\SettingsManager.obj"
+".\Release\stdafx.obj"
+".\Release\TimeCore.obj"
+".\Release\FinanceService.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSPB.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdafx.cpp
+Compiling...
+Advanced.cpp
+BMPButton.cpp
+CreditsDebits.cpp
+FinanceDB.cpp
+FinanceService.cpp
+General.cpp
+MainDlg.cpp
+NotifyWnd.cpp
+PropertiesDlg.cpp
+PropertySheet.cpp
+ReadOnlyEdit.cpp
+SettingsManager.cpp
+TimeCore.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+FinanceService.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: FinanceService - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/FinanceService.res" /d "_DEBUG" "D:\Projects\FinanceService-WTL\FinanceService\FinanceService.rc"" 
+Creating temporary file "C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSPD.tmp" with contents
+[
+/nologo /MTd /W2 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "STRICT" /Fp"Debug/FinanceService.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Projects\FinanceService-WTL\FinanceService\Advanced.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\BMPButton.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\CreditsDebits.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\FinanceDB.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\FinanceService.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\General.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\MainDlg.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\NotifyWnd.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\PropertiesDlg.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\PropertySheet.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\ReadOnlyEdit.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\SettingsManager.cpp"
+"D:\Projects\FinanceService-WTL\FinanceService\TimeCore.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSPD.tmp" 
+Creating temporary file "C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSPE.tmp" with contents
+[
+/nologo /MTd /W2 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "STRICT" /Fp"Debug/FinanceService.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Projects\FinanceService-WTL\FinanceService\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSPE.tmp" 
+Creating temporary file "C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSPF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/FinanceService.pdb" /debug /machine:I386 /out:"Debug/FinanceService.exe" /pdbtype:sept 
+".\Debug\Advanced.obj"
+".\Debug\BMPButton.obj"
+".\Debug\CreditsDebits.obj"
+".\Debug\FinanceDB.obj"
+".\Debug\FinanceService.obj"
+".\Debug\General.obj"
+".\Debug\MainDlg.obj"
+".\Debug\NotifyWnd.obj"
+".\Debug\PropertiesDlg.obj"
+".\Debug\PropertySheet.obj"
+".\Debug\ReadOnlyEdit.obj"
+".\Debug\SettingsManager.obj"
+".\Debug\stdafx.obj"
+".\Debug\TimeCore.obj"
+".\Debug\FinanceService.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Abraham\LOCALS~1\Temp\RSPF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdafx.cpp
+Compiling...
+Advanced.cpp
+BMPButton.cpp
+CreditsDebits.cpp
+FinanceDB.cpp
+FinanceService.cpp
+General.cpp
+MainDlg.cpp
+NotifyWnd.cpp
+PropertiesDlg.cpp
+PropertySheet.cpp
+ReadOnlyEdit.cpp
+SettingsManager.cpp
+TimeCore.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+FinanceService.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

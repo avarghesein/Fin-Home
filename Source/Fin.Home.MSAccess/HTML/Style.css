@@ -1,0 +1,31 @@
+body
+{
+	text-align: left;
+	font-size: 12px;
+	font-family: verdana;
+}
+table 
+{
+	text-align: left;
+	font-size: 12px;
+	font-family: verdana;
+}
+
+
+.odd
+{
+	background-color: #ffffff;
+}
+.evn
+{
+	background-color: #eff7ff;
+}
+.selodd
+{
+	background-color: yellow;
+}
+.selevn
+{
+	background-color: yellow;
+}
+
