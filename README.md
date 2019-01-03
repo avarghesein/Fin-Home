@@ -33,18 +33,26 @@ This is an easy approach to use the application directly in a IE WebPage, withou
 ![alt Web Application](https://github.com/avarghesein/Fin-Home/blob/master/Source/Screenshots/FinHome.DesktopHTMLPage.jpg)
 
 # 3-4. Desktop Tray Notification for Live Alers (TrayNotificatonComponents) - Build using Visual Studio 6 (VB6, VC++ 6 compilers)*
-If you would like to get Live notifications (Say if your policy have a due or a scheduled tasks is already gone past), this components will provide you the feature. It will give you OUTLOOK kind desktop pop up notifications, clicking on which will open detailed Report.
-It has build using two components
+If you would like to get Live notifications (Say if your policy has a due or a scheduled task has already gone past), this components will provide you the feature. It will give you an OUTLOOK kind desktop pop up notification, clicking on which will open detailed due Reports.
+It has been built using two components
 
 a. Notification Active X Server - VB6
 
-A VB Active X Exe Server talks to the underlying Finance@Home Access details to fetch alerts. It then provide those details through a COM Interface to the consumers (eg. Notification Desktop Service mentioned below)
+A VB Active X Exe Server talks to the underlying Finance@Home Access DB to fetch alert details. It then provide those details through a COM Interface to the consumers (eg. Notification Desktop Service mentioned below). This component will run under the hood and user wont interact with this component directly.
+
+Note: To use this server for notifications. You've to register it with COM.
+eg.To register - Finance@Server.exe /regserver
+eg.To unregister - Finance@Server.exe /unregserver
 
 b. Notification Desktop Service - VC++6 with ATL/WTL dependency
 
-The Desktop Notification Service (ATL/WTL Visual C++ Windows GUI Application). It fetch the notification details from "a. Notification Active X Server", and will display to the user.
+The actual Desktop Notification Service (ATL/WTL Visual C++ Windows GUI Application), with which the user interacts. It fetch the notification details from "a. Notification Active X Server", and will display to the user.
 
 ![alt Notification Server](https://github.com/avarghesein/Fin-Home/blob/master/Source/Screenshots/FinHome.DesktopLiveNotification.jpg)
+
+Note:
+Also make sure that, all the below files resides in the same directory, to make the notifications work:
+Finance@Home_DB.mdb, Finance@Server.exe, FinanceService.ext
 
 # 5. Android Mobile Native Application. - Build using NetBeans, Android SDK
 
