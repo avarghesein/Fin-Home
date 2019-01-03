@@ -52,7 +52,7 @@ The actual Desktop Notification Service (ATL/WTL Visual C++ Windows GUI Applicat
 
 Note:
 Also make sure that, all the below files resides in the same directory, to make the notifications work:
-Finance@Home_DB.mdb, Finance@Server.exe, FinanceService.ext
+Finance@Home_DB.mdb, Finance@Server.exe, FinanceService.exe
 
 # 5. Android Mobile Native Application. - Build using NetBeans, Android SDK
 
